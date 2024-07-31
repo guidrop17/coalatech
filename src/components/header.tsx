@@ -12,7 +12,7 @@ export function Header() {
         <Link href="/" className="text-2xl font-extrabold text-white">
           CoalaTech
         </Link>
-        <Suspense>
+        <Suspense fallback={null}>
           <SearchForm />
         </Suspense>
       </div>
